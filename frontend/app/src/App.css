@@ -1,38 +1,102 @@
-.App {
-  text-align: center;
+/* サイト全体 */
+a {
+  color: black;
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Header{
+  height: 45px;
+  background-color: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.MainFooter{
+  height: 150px;
+  background-color: #FFFFFF;
 }
+/* サイト全体 */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* サイドバー */
+.Sidebar{
+  height: 100%;
+  width: 250px;
+  padding: 70px 0 0 20px;
   color: white;
+  background-color: #134970;
 }
 
-.App-link {
-  color: #61dafb;
+.Sidebar a {
+  display: flex;
+  font-size: 30px;
+  color: white;
+  padding-top: 30px;
+}
+/* サイドバー */
+
+/* メインページ */
+.MainBackground {
+  background: linear-gradient(20deg, #929090, #000000); 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.MainTopImage {
+  width: 100%;
+  height: 500px;
+  background-color: aliceblue;
+}
+
+.MainContents{
+  width: 60%;
+  margin: 50px auto;
+}
+
+.MainNews {
+  height: 300px;
+  border: 1px solid white;
+  display: flex;
+}
+
+.EachTransitionPages {
+  margin-top: 100px;
+}
+
+.EachTransitionPages a {
+  width: 100%;
+  height: 800px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: 1px solid white;
+}
+
+.RecipeImage {
+  background: -moz-linear-gradient(top, #2E5F83, rgba(76, 0, 255, 0.1));
+  background: -webkit-linear-gradient(top, #2E5F83, rgba(255, 0, 0, 0.1));
+  background: linear-gradient(to bottom, #2E5F83, rgba(255, 0, 0, 0.1));
+}
+
+.FantasyImage {
+  background: -moz-linear-gradient(top, #2E5F83, rgba(76, 0, 255, 0.1));
+  background: -webkit-linear-gradient(top, #2E5F83, rgba(255, 0, 0, 0.1));
+  background: linear-gradient(to bottom, #2E5F83, rgba(255, 0, 0, 0.1));
+}
+
+.AboutImage {
+  background: -moz-linear-gradient(top, #2E5F83, rgba(76, 0, 255, 0.1));
+  background: -webkit-linear-gradient(top, #2E5F83, rgba(255, 0, 0, 0.1));
+  background: linear-gradient(to bottom, #2E5F83, rgba(255, 0, 0, 0.1));
+}
+
+.ContactImage {
+  background: -moz-linear-gradient(top, #2E5F83, rgba(76, 0, 255, 0.1));
+  background: -webkit-linear-gradient(top, #2E5F83, rgba(255, 0, 0, 0.1));
+  background: linear-gradient(to bottom, #2E5F83, rgba(255, 0, 0, 0.1));
+}
+/* メインページ */
+
+/* 料理ページ */
+.RecipeTopImage {
+  width: 100%;
+  height: 500px;
+  background-color: aliceblue;
 }
