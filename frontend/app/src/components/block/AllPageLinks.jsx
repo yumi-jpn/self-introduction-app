@@ -7,9 +7,9 @@ export const AllPageLinks = () => {
       <Link to='/'>Top</Link>
       <Link to='/Recipe'>Recipe</Link>
       <Link to='/RecipePost'>RecipePost</Link>
-      <Link to='/Fantasy'>Fantasy</Link>
+      {/* <Link to='/Fantasy'>Fantasy</Link> */}
       <Link to='/about'>About</Link>
-      <Link to='/contact'>Contact</Link>
+      {/* <Link to='/contact'>Contact</Link> */}
     </div>
   )
 }

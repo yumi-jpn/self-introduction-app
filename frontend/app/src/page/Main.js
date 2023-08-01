@@ -11,13 +11,13 @@ class Main extends React.Component{
                         <Link to='/Recipe' className='RecipeImage'>料理 Recipe</Link>
                         <br/>
                         
-                        <Link to='/fantasy' className='FantasyImage'>絵本 Fantasy</Link>
-                        <br/>
+                        {/* <Link to='/fantasy' className='FantasyImage'>絵本 Fantasy</Link>
+                        <br/> */}
                         
                         <Link to='/about' className='AboutImage'>About</Link>
                         <br/>
                         
-                        <Link to='/contact' className='ContactImage'>Contact</Link>
+                        {/* <Link to='/contact' className='ContactImage'>Contact</Link> */}
                     </div>
                 </div>
             </div>
