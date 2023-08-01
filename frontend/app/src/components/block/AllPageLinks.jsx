@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const AllPageLinks = () => {
+export const AllPageLinks = () => {
   return (
     <div>
       <Link to='/'>Top</Link>
@@ -13,5 +13,3 @@ const AllPageLinks = () => {
     </div>
   )
 }
-
-export default AllPageLinks;

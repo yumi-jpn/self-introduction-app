@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactSidebar from 'react-sidebar';
-import AllPageLinks from '../block/AllPageLinks.js';
+import { AllPageLinks } from '../block/AllPageLinks.jsx';
 import routes from '../../routes.js';
 import { Route, Switch, withRouter } from 'react-router-dom';
 
