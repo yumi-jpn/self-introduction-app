@@ -1,18 +1,16 @@
 import React from 'react';
 import './App.css';
-import ReactSidebar from "./components/modules/ReactSidebar"
-import Header from "./components/modules/Header"
-import Footer from "./components/modules/Footer"
+import Sidebar from "./components/modules/Sidebar"
+import { Header } from "./components/modules/Header"
+import { Footer } from "./components/modules/Footer"
 
-const App = () => {
+export const App = () => {
 
   return (
     <>
       <Header />
-      <ReactSidebar />
+      <Sidebar />
       <Footer />
     </>
   );
 };
-
-export default App;
