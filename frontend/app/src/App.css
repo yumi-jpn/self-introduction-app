@@ -13,6 +13,15 @@ a {
   height: 150px;
   background-color: #FFFFFF;
 }
+
+.PageTitle {
+  color: #134970;
+  margin: 30px;
+}
+
+.Wrap {
+  padding: 30px;
+}
 /* サイト全体 */
 
 /* サイドバー */
@@ -100,3 +109,30 @@ a {
   height: 500px;
   background-color: aliceblue;
 }
+/* 料理ページ */
+
+/* 料理投稿ページ */
+.EachRecipeArea {
+  width: 100vw;
+  min-height: 300px;
+  display: flex;
+  /* padding: 30px; */
+}
+
+.EachRecipe {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #929090;
+  border-radius: 6px;
+  margin: 20px 20px 0 0;
+  text-align: end;
+  position: relative;
+}
+
+.RecipeName {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding-right: 10px;
+}
+/* 料理投稿ページ */
